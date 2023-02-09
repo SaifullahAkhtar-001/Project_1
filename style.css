@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Barlow Condensed;
+    src: url(./fonts/BarlowCondensed-SemiBold.otf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+.bg_patch{
+    background-color: rgb(233, 104, 39);
+    z-index: -1;
+    height: 100vh;
+    width: 600px;
+    position: absolute;
+    right: 500px;
+    left: 700px;
+    bottom: 0;
+
+}
+.heading{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.container_1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.sub_cont{
+    display: flex;
+    column-gap: 20px;
+}
+.div1{
+    flex: 1;
+}
+.container_2{
+    flex: 1;
+    align-content: flex-end;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 1500px){
+    .heading{
+        font-family: 'Barlow Condensed', sans-serif;
+       font-size: small;
+        text-align: left;
+    }
+    .content{
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+    }
+}
+
+/* services */
+
+.client_pic{
+    width: 500px;
+}
